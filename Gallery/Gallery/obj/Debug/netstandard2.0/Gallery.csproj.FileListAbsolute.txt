@@ -1,0 +1,16 @@
+/Users/jeri/Projects/Gallery/Gallery/Gallery/bin/Debug/netstandard2.0/Gallery.deps.json
+/Users/jeri/Projects/Gallery/Gallery/Gallery/bin/Debug/netstandard2.0/Gallery.dll
+/Users/jeri/Projects/Gallery/Gallery/Gallery/bin/Debug/netstandard2.0/ref/Gallery.dll
+/Users/jeri/Projects/Gallery/Gallery/Gallery/bin/Debug/netstandard2.0/Gallery.pdb
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/Gallery.csproj.AssemblyReference.cache
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/Gallery.AssemblyInfoInputs.cache
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/Gallery.AssemblyInfo.cs
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/Gallery.csproj.CoreCompileInputs.cache
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/Gallery.dll
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/ref/Gallery.dll
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/Gallery.pdb
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/Display.xaml.g.cs
+/Users/jeri/Projects/Gallery/Gallery/Gallery/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
