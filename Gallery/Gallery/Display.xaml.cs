@@ -9,7 +9,7 @@ namespace Gallery
     
     public partial class Display : ContentPage
 	{
-
+        //Display initial image and adds left and right tap controls to navigate between images
 		void displayImage(int id)
 		{
 			Image img = new Image { Source = Photos.images[id].ToString(), Aspect = Aspect.AspectFill, ClassId = id.ToString() };
@@ -30,12 +30,12 @@ namespace Gallery
 
                     if (view.Children.Count > 0)
                     {
+                        //Added slight delay to synchronize function and prevent crashing
                         await Task.Delay(100);
+                        //Remove current image and create new one for display
                         view.Children.Clear();
                         displayImage(id);
                     }
-
-                    Debug.WriteLine("view count: " + view.Children.Count);
                 }
                 catch (Exception ex)
                 {
@@ -55,14 +55,15 @@ namespace Gallery
                     {
                         id += 1;
                     }
+
                     if (view.Children.Count > 0)
                     {
+                        //Added slight delay to synchronize function and prevent crashing
                         await Task.Delay(100);
+                        //Remove current image and create new one for display
                         view.Children.Clear();
                         displayImage(id);
                     }
-
-                    Debug.WriteLine("view count: " + view.Children.Count);
 
                 }
                 catch (Exception ex)

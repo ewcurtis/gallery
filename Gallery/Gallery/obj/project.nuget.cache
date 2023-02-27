@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "yPUDAcdEnAtLKwkHM50Q0k3+e54U0sV6ywi+Cu0Hxewqut4s2BOdoqPD4kyTb6cYGzdrol1L1pQ/enttPyktlA==",
+  "dgSpecHash": "mROX/AHEL4VLhV4ozVkmg8p3vftfOt2eK4Uc9uebSqD840CAWAEVZ6Gc1dpQKUyouHcavhmZUabfppSsAMsZMQ==",
   "success": true,
-  "projectFilePath": "/Users/jeri/Projects/Gallery/Gallery/Gallery/Gallery.csproj",
+  "projectFilePath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj",
   "expectedPackageFiles": [
-    "/Users/jeri/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/jeri/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
-    "/Users/jeri/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/jeri/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/jeri/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\evanc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\evanc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\evanc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\evanc\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\evanc\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

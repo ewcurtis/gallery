@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vOZGHpFzNa8pa+geSHQ4K14qzEy2tB3hlrAXCV4f8Om6eMftzY+U2zT4mWmoM/5dF8UlR42JXGazmJ66XlA1rg==",
+  "dgSpecHash": "0PbygaeAmP/S87P6XJscOShTtzjBlu74Awhram5KCV2u4cx3vSXqWFeVfulRtkqU8aEHp3TZs/2QDmG2mre3EA==",
   "success": true,
-  "projectFilePath": "/Users/jeri/Projects/Gallery/Gallery/Gallery.iOS/Gallery.iOS.csproj",
+  "projectFilePath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/jeri/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/jeri/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/jeri/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\evanc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\evanc\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\evanc\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1062,32 +1062,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/jeri/.nuget/packages/": {}
+    "C:\\Users\\evanc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeri/Projects/Gallery/Gallery/Gallery.iOS/Gallery.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
       "projectName": "Gallery.iOS",
-      "projectPath": "/Users/jeri/Projects/Gallery/Gallery/Gallery.iOS/Gallery.iOS.csproj",
-      "packagesPath": "/Users/jeri/.nuget/packages/",
-      "outputPath": "/Users/jeri/Projects/Gallery/Gallery/Gallery.iOS/obj/",
+      "projectPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
+      "packagesPath": "C:\\Users\\evanc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/jeri/.config/NuGet/NuGet.Config"
+        "C:\\Users\\evanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/jeri/Projects/Gallery/Gallery/Gallery/Gallery.csproj": {
-              "projectPath": "/Users/jeri/Projects/Gallery/Gallery/Gallery/Gallery.csproj"
+            "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj": {
+              "projectPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj"
             }
           }
         }

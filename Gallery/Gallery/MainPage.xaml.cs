@@ -20,8 +20,10 @@ namespace Gallery
         {
             InitializeComponent();
             var t = new TapGestureRecognizer();
+            //Tapping image will blow it up in the display page
             t.Tapped += async (s, e) =>
             {
+                //Prevents tapped action from executing twice
                 if (disabled)
                     return;
 
@@ -30,16 +32,16 @@ namespace Gallery
                 await Navigation.PushAsync(new Display(img.ClassId));
                 disabled = false;
             };
-
-
-            //grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(200, GridUnitType.Absolute) });
+            
+            //Adds initial row
             grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(175, GridUnitType.Absolute) });
 
+            //Creates Images using paths stored in Photos.images and adds them to the display in a grid view
             for (int i = 0; i < Photos.images.Length; i++)
             {
                 Image img = new Image { Source = Photos.images[i].ToString(), Aspect = Aspect.AspectFill, ClassId = i.ToString() };
+                //Adds functionality to blow up image when tapped
                 img.GestureRecognizers.Add(t);
-                //Photos.images[i] = img;
                 grid.Children.Add(img, colCount, rowCount);
                 colCount += 1;
 
