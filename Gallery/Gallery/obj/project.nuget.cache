@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mROX/AHEL4VLhV4ozVkmg8p3vftfOt2eK4Uc9uebSqD840CAWAEVZ6Gc1dpQKUyouHcavhmZUabfppSsAMsZMQ==",
+  "dgSpecHash": "bI/RJ4SMcpmr+Gqd/RGXAhhbZunRU89DEfUhZqvRI52Wfeqdn733jWy6Xa2WIKNxHC4ln2SG8LJq7SDqhJJOoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj",
+  "projectFilePath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evanc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\evanc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

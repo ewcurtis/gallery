@@ -13,7 +13,7 @@ namespace Gallery
             "img3.jpg",
             "img4.jpg",
             "img5.jpg",
-            "img7.jpeg",
+            "img7.jpg",
             "img8.jpg",
             "img9.jpg",
             "img10.jpg",

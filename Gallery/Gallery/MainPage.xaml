@@ -2,20 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Gallery.MainPage">
-    <ScrollView>
-        <Grid
-            x:Name="grid"
-            Margin="5,5,5,5"
-            VerticalOptions="FillAndExpand">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.33*" />
-                <ColumnDefinition Width="0.33*" />
-                <ColumnDefinition Width="0.33*" />
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions></Grid.RowDefinitions>
-        </Grid>
-    </ScrollView>
-    
-
+    <ContentView>
+        <ScrollView>
+            <Grid
+                x:Name="grid"
+                Margin="5,5,5,5"
+                >
+                <Grid.ColumnDefinitions>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions></Grid.RowDefinitions>
+            </Grid>
+        </ScrollView>
+    </ContentView>
 </ContentPage>
 

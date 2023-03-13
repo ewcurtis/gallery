@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.Android\\Gallery.Android.csproj",
+      "projectUniqueName": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.Android\\Gallery.Android.csproj",
       "projectName": "Gallery.Android",
-      "projectPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.Android\\Gallery.Android.csproj",
+      "projectPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.Android\\Gallery.Android.csproj",
       "packagesPath": "C:\\Users\\evanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.Android\\obj\\",
+      "outputPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj": {
-              "projectPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj"
+            "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj": {
+              "projectPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj"
             }
           }
         }
@@ -3452,6 +3452,14 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

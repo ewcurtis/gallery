@@ -9,23 +9,28 @@ namespace Gallery
     
     public partial class Display : ContentPage
 	{
+
+        private double width = 0;
+        private double height = 0;
+        private int id;
         //Display initial image and adds left and right tap controls to navigate between images
-		void displayImage(int id)
+		void displayImage()
 		{
-			Image img = new Image { Source = Photos.images[id].ToString(), Aspect = Aspect.AspectFill, ClassId = id.ToString() };
+            view.Children.Clear();
+			Image img = new Image { Source = Photos.images[this.id].ToString(), Aspect = Aspect.AspectFit, HeightRequest = this.height - 10, ClassId = this.id.ToString() };
             var swipeRight = new SwipeGestureRecognizer { Direction = SwipeDirection.Right };
             var swipeLeft = new SwipeGestureRecognizer { Direction = SwipeDirection.Left };
             swipeRight.Swiped += async (s, e) =>
             {
                 try
                 {
-                    if (id == 0)
+                    if (this.id == 0)
                     {
-                        id = Photos.images.Length - 1;
+                        this.id = Photos.images.Length - 1;
                     }
                     else
                     {
-                        id -= 1;
+                        this.id -= 1;
                     }
 
                     if (view.Children.Count > 0)
@@ -34,7 +39,7 @@ namespace Gallery
                         await Task.Delay(100);
                         //Remove current image and create new one for display
                         view.Children.Clear();
-                        displayImage(id);
+                        displayImage();
                     }
                 }
                 catch (Exception ex)
@@ -47,13 +52,13 @@ namespace Gallery
             {
                 try
                 {
-                    if (id == Photos.images.Length - 1)
+                    if (this.id == Photos.images.Length - 1)
                     {
-                        id = 0;
+                        this.id = 0;
                     }
                     else
                     {
-                        id += 1;
+                        this.id += 1;
                     }
 
                     if (view.Children.Count > 0)
@@ -62,7 +67,7 @@ namespace Gallery
                         await Task.Delay(100);
                         //Remove current image and create new one for display
                         view.Children.Clear();
-                        displayImage(id);
+                        displayImage();
                     }
 
                 }
@@ -86,10 +91,30 @@ namespace Gallery
 
 		public Display (string id)
 		{
-			
+            this.id = int.Parse(id);
 			InitializeComponent ();
-            displayImage(int.Parse(id));
+            //displayImage(int.Parse(id));
         }
-	}
+
+        protected override void OnSizeAllocated(double width, double height)
+        {
+            base.OnSizeAllocated(width, height); //must be called
+            if (this.width != width || this.height != height)
+            {
+                this.width = width;
+                this.height = height;
+
+                //reconfigure layout
+                if (width > height)
+                {
+                    displayImage();
+                }
+                else
+                {
+                    displayImage();
+                }
+            }
+        }
+    }
 }
 

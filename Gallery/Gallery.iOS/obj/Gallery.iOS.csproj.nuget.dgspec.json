@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj": {}
+    "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj": {
+    "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
         "projectName": "Gallery.iOS",
-        "projectPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
+        "projectPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
         "packagesPath": "C:\\Users\\evanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\obj\\",
+        "outputPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj": {
-                "projectPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj"
+              "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj": {
+                "projectPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj": {
+    "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj",
+        "projectUniqueName": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj",
         "projectName": "Gallery",
-        "projectPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\Gallery.csproj",
+        "projectPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\Gallery.csproj",
         "packagesPath": "C:\\Users\\evanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery\\obj\\",
+        "outputPath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

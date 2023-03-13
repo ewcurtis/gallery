@@ -145,9 +145,11 @@
     <BundleResource Include="Resources\img15.jpg" />
     <BundleResource Include="Resources\img11.jpg" />
     <BundleResource Include="Resources\img10.jpg" />
-    <BundleResource Include="Resources\img7.jpeg" />
     <BundleResource Include="Resources\img12.jpg" />
     <BundleResource Include="Resources\img13.jpg" />
     <BundleResource Include="Resources\img1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img7.jpg" />
   </ItemGroup>
 </Project>

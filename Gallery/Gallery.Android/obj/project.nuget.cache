@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QaLasdN19rGOqLQdcYHYRAHIJToEo83TyOoVGde1kwPdTasadufyLfgwXBgC7NDhk8HOX0yCut0W9CHXpgC8Ww==",
+  "dgSpecHash": "H/yIOBgXYEx6EKpjtJi67Le/E/8u9L5RwckHTYxu+tXqPAnt53bl5HKkDVEk6wHMw/TqgSeMC9ZlsiF8SG8dgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.Android\\Gallery.Android.csproj",
+  "projectFilePath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.Android\\Gallery.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evanc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\evanc\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0PbygaeAmP/S87P6XJscOShTtzjBlu74Awhram5KCV2u4cx3vSXqWFeVfulRtkqU8aEHp3TZs/2QDmG2mre3EA==",
+  "dgSpecHash": "lWSSQVTByXmL6ts6TY9qRfiGm6npoZf5XhVg857hOXrAokNwMeBumfxUu0KbXI93SL5IUzagdHmWzvaFvYjCDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evanc\\Source\\Repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
+  "projectFilePath": "C:\\Users\\evanc\\source\\repos\\gallery\\Gallery\\Gallery.iOS\\Gallery.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evanc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\evanc\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
