@@ -11,6 +11,7 @@
                 <Grid.ColumnDefinitions>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions></Grid.RowDefinitions>
+                <Label Text="Favorites" TextDecorations="Underline"/>
             </Grid>
         </ScrollView>
     </ContentView>

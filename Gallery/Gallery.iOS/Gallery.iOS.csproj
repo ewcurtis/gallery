@@ -152,4 +152,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\img7.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\star_outline.png" />
+  </ItemGroup>
 </Project>

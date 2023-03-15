@@ -24,6 +24,8 @@ namespace Gallery
 
         };
 
+        public static ArrayList favorites = new ArrayList();
+
 	}
 }
 

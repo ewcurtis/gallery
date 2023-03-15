@@ -651,3 +651,5 @@ C:\Users\evanc\source\repos\gallery\Gallery\Gallery.Android\obj\Debug\130\stamp\
 C:\Users\evanc\source\repos\gallery\Gallery\Gallery.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\evanc\source\repos\gallery\Gallery\Gallery.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\evanc\source\repos\gallery\Gallery\Gallery.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\evanc\source\repos\gallery\Gallery\Gallery.Android\obj\Debug\130\res\drawable\star.png
+C:\Users\evanc\source\repos\gallery\Gallery\Gallery.Android\obj\Debug\130\res\drawable\star_outline.png

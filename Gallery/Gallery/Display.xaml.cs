@@ -13,11 +13,26 @@ namespace Gallery
         private double width = 0;
         private double height = 0;
         private int id;
+        private bool favorites;
         //Display initial image and adds left and right tap controls to navigate between images
 		void displayImage()
 		{
             view.Children.Clear();
-			Image img = new Image { Source = Photos.images[this.id].ToString(), Aspect = Aspect.AspectFit, HeightRequest = this.height - 10, ClassId = this.id.ToString() };
+            Image img;
+            if (this.favorites)
+            {
+                Label l = new Label { Text = "Favorites", HorizontalTextAlignment = TextAlignment.Center, FontSize = 30 };
+                view.Children.Add(l);
+                img = new Image { Source = Photos.favorites[this.id].ToString(), Aspect = Aspect.AspectFit, 
+                                  HeightRequest = this.height - 10, ClassId = this.id.ToString() };
+            } else
+            {
+                Label l = new Label { Text = "Gallery", HorizontalTextAlignment = TextAlignment.Center, FontSize = 30 };
+                view.Children.Add(l);
+                img = new Image { Source = Photos.images[this.id].ToString(), Aspect = Aspect.AspectFit, 
+                                  HeightRequest = this.height - 10, ClassId = this.id.ToString() };
+            }
+			
             var swipeRight = new SwipeGestureRecognizer { Direction = SwipeDirection.Right };
             var swipeLeft = new SwipeGestureRecognizer { Direction = SwipeDirection.Left };
             swipeRight.Swiped += async (s, e) =>
@@ -26,7 +41,14 @@ namespace Gallery
                 {
                     if (this.id == 0)
                     {
-                        this.id = Photos.images.Length - 1;
+                        if (this.favorites)
+                        {
+                            this.id = Photos.favorites.Count - 1;
+                        } else
+                        {
+                            this.id = Photos.images.Length - 1;
+                        }
+                        
                     }
                     else
                     {
@@ -52,7 +74,7 @@ namespace Gallery
             {
                 try
                 {
-                    if (this.id == Photos.images.Length - 1)
+                    if ((this.id == Photos.images.Length - 1 && !this.favorites) || (this.id == Photos.favorites.Count-1 && this.favorites))
                     {
                         this.id = 0;
                     }
@@ -89,11 +111,11 @@ namespace Gallery
             }
         }
 
-		public Display (string id)
+		public Display (string id, bool favorites=false)
 		{
+            this.favorites = favorites;
             this.id = int.Parse(id);
 			InitializeComponent ();
-            //displayImage(int.Parse(id));
         }
 
         protected override void OnSizeAllocated(double width, double height)
